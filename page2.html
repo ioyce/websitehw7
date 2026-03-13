@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyce's Website</title>
+    <link rel ="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>More About Me...</h1>
+            <div class = "side-by-side">
+                <img src="https://i.pinimg.com/1200x/a0/53/6e/a0536e509e8cd34741171a7c866e5819.jpg" alt="Terriers"> <img src="https://i.pinimg.com/736x/56/a8/94/56a89450f24326c40862d9076ce9e93e.jpg" alt="Dachshund">
+            </div>
+
+            <p>Outside of school, I have a lot of varying interests. I enjoy making music with instruments. I grew up learning the piano since I was 3 years old, then I expanded my skills to the clarinet in middle school and auxiliary percussion in high school. While playing the instrument is fun, my favorite part about music is getting to play and meet other people that have the same musical interest as I do. In addition to music, I also enjoy traveling. During my first year of college, I was able to live in the West Coast and Europe. In the West Coast, I was able to explore the Bay Area (Oakland, San Francisco, Berkeley, Fremont, Emeryville, and Alameda) and Seattle. In Europe, I lived in London, being able to explore other cities in United Kingdom (Oxford, Windsor, Brighton, and Seaford/Seven Sisters) and other countries (Italy, Spain, and France). During this year of travel, I enjoyed learning about different lifestyles and cultures as an East Coaster, trying new foods and restaurants, visiting famous attractions, and experiencing a different life!</p>
+            <h2>Favorite Dogs</h2>
+            <p>When I graduate, I would want to own at least one dog. Some of my favorite dogs include:</p>
+            <li>Dachshund</li>
+            <li>West Highland White Terrier</li>
+            <li>American Staffordshire</li>
+            <p><b>Thanks for reading about me!</b></p>
+
+            <button class = "primary-cta" id = 'navigateButton'>Home</button>
+            <script>
+                const navigateButton = document.getElementById('navigateButton');
+                navigateButton.addEventListener('click', function(){
+                window.location.href = 'index.html'
+                })
+            </script>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyce's Website</title>
+    <link rel ="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Welcome to my Website!</h1>
+            <img src = "https://i.pinimg.com/736x/a6/e7/31/a6e7312bcb9dd5b3fcb87f0d51766c4f.jpg" style="width: 80%;" alt="Figma Logo">
+            <p> I'm Joyce, a sophomore at Northeastern University studying computer science. I was born and raised in New York City, with a background in creative fields like music and arts. Growing up in Queens, New York, I witnessed firsthand how creation and intention empowers others, whether it was through buskers in the subway or home-cooked meals in mom and pop shops. Coming to college, I discovered the world of UI/UX design, thus leading me to pursue a concentration in Human-Computer Interaction and a minor in mathematics. I am exploring how humans use technology to create experiences that are intuitive and implementing simple solutions to complex problems. I am specifically proficient in using software like Figma and programming using Python, Java, Javascript, HTML, and CSS.</p>
+            <p>At school, I am a UX designer for clubs such as Sandbox and Generate. I like to leverage my skills to assist the design in a team of engineers, designers, and product leads for client-based products, communicating my design decisions and iterating based on feedback. I enjoy sharing my design works with others and learning from others to grow my skills and open my worldview more. Feel free to chat, my email is <u>lee.joyce@northeastern.edu</u> and this is my <a href="https://www.linkedin.com/in/ioyce-lee/">Linkedin</a></p>
+            <button class = "primary-cta" id = 'navigateButton'>Page 2</button>
+            <script>
+                const navigateButton = document.getElementById('navigateButton');
+                navigateButton.addEventListener('click', function(){
+                window.location.href = 'page2.html'
+                })
+            </script>
+        </div>
+    </div>
+
+</body>
+</html>
